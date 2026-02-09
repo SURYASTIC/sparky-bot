@@ -924,4 +924,4 @@ if prompt := st.chat_input("Type your question here..."):
             st.markdown(response.text)
             
     except Exception as e:
-        st.error("I'm having trouble connecting right now. Please try again.")
+        st.error(f"Error details: {e}")
