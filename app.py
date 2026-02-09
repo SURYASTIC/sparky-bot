@@ -13,7 +13,7 @@ else:
 
 # --- 2. MODEL SETUP ---
 # We selected this specific model from your screenshot list:
-model_name = "gemini-pro"
+model_name="gemini-pro-latest"
 
 # PASTE YOUR CUSTOM KNOWLEDGE BELOW
 system_instruction = """
