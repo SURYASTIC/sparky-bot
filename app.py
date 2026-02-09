@@ -876,7 +876,7 @@ Steps to Login:
 # --- 3. SETUP MODEL ---
 # Uses Gemini Flash for speed and high free limits
 model = genai.GenerativeModel(
-    model_name="gemini-1.5-flash", # Or "gemini-2.0-flash-exp"
+    model_name="gemini-2.0-flash", # Or "gemini-2.0-flash-exp"
     system_instruction=KNOWLEDGE_BASE
 )
 
